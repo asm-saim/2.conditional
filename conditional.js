@@ -104,6 +104,14 @@ else {
     console.log("Go to work")
 }
 // Build a simple login system — print "Login successful" only if both username and password are correct.
+const userName = "Sahil";
+const password = 12345;
+if (userName === "Sahil" && password === 12345) {
+    console.log("LOGIN SUCCESSFUL")
+}
+else {
+    console.log("Invalid name or password")
+}
 // Build a grading system using a marks variable (A+, A, B, C, F) — it must have at least 5 condition branches.
 // Using a bmi variable, determine the category — Underweight, Normal, Overweight, Obese (use if-else if).
 // Using a month number (1-12), determine which season that month falls in (Winter, Summer, Monsoon, etc.).
