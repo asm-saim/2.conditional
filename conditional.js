@@ -139,6 +139,22 @@ else {
     console.log("Invalid Number")
 }
 // Using a bmi variable, determine the category — Underweight, Normal, Overweight, Obese (use if-else if).
+const bmi = 67;
+if (bmi < 50) {
+    console.log("Underweight")
+}
+else if (bmi >= 50 && bmi <= 59) {
+    console.log("Normal")
+}
+else if (bmi >= 60 && bmi <= 70) {
+    console.log("Overweight")
+}
+else if (bmi >= 71 && bmi <= 80) {
+    console.log("Obese")
+}
+else {
+    console.log("Invalid")
+}
 // Using a month number (1-12), determine which season that month falls in (Winter, Summer, Monsoon, etc.).
 // Using age and hasID, use nested if-else to check whether someone is eligible to vote.
 // Using isLoggedIn and isAdmin, build a nested condition — if logged in and admin, print "Admin Dashboard"; if logged in but not admin, print "User Dashboard"; if not logged in, print "Please Login".
