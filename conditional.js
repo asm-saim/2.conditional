@@ -158,3 +158,19 @@ else {
 // Using a month number (1-12), determine which season that month falls in (Winter, Summer, Monsoon, etc.).
 // Using age and hasID, use nested if-else to check whether someone is eligible to vote.
 // Using isLoggedIn and isAdmin, build a nested condition — if logged in and admin, print "Admin Dashboard"; if logged in but not admin, print "User Dashboard"; if not logged in, print "Please Login".
+// Determine whether a number is even or odd using the ternary operator.
+
+const numb = 5;
+(numb % 2 === 0 ? console.log("Even") : console.log("Odd"))
+//  Using age, determine "Adult" or "Minor" using the ternary operator.
+const peopleAge = 67;
+const stat = peopleAge >= 18 ? "Adult" : "Minor";
+console.log(stat)
+//  If the price is greater than 1000, print "Expensive", otherwise "Affordable" — write this using a ternary operator.
+const productPrice = 1200;
+const result = productPrice > 1000 ? "Expensive" : "Affordable";
+console.log(result)
+// Using hasPermission, use the ! operator to print "Access Denied" if permission is not granted.
+// Using isOnline, use the NOT operator to print "User is offline".
+// Build a simple discount system: if cart total is above 1000 AND the user is a member, apply a 20% discount; if only above 1000, apply a 10% discount; otherwise, no discount — use logical operators combined with if-else if.
+// Build a simple login + role-check system that verifies username/password and shows a different message based on admin/user role — combine everything from this module (comparison, logical operators, if-else, ternary).
