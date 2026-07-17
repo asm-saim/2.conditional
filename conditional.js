@@ -113,6 +113,31 @@ else {
     console.log("Invalid name or password")
 }
 // Build a grading system using a marks variable (A+, A, B, C, F) — it must have at least 5 condition branches.
+const marks = 67;
+if (marks < 32) {
+    console.log("Grade F")
+}
+else if (marks >= 33 && marks <= 39) {
+    console.log("Grade D")
+}
+else if (marks >= 40 && marks <= 49) {
+    console.log("Grade B")
+}
+else if (marks >= 50 && marks <= 59) {
+    console.log("Grade B+")
+}
+else if (marks >= 60 && marks <= 69) {
+    console.log("Grade A-")
+}
+else if (marks >= 70 && marks <= 79) {
+    console.log("Grade A")
+}
+else if (marks >= 80 && marks <= 100) {
+    console.log("Grade A+")
+}
+else {
+    console.log("Invalid Number")
+}
 // Using a bmi variable, determine the category — Underweight, Normal, Overweight, Obese (use if-else if).
 // Using a month number (1-12), determine which season that month falls in (Winter, Summer, Monsoon, etc.).
 // Using age and hasID, use nested if-else to check whether someone is eligible to vote.
