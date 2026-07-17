@@ -171,6 +171,9 @@ const productPrice = 1200;
 const result = productPrice > 1000 ? "Expensive" : "Affordable";
 console.log(result)
 // Using hasPermission, use the ! operator to print "Access Denied" if permission is not granted.
+const hasPermission = true;
+const permission = !hasPermission ? "Access Denied" : "Access Granted"
+console.log(permission)
 // Using isOnline, use the NOT operator to print "User is offline".
 // Build a simple discount system: if cart total is above 1000 AND the user is a member, apply a 20% discount; if only above 1000, apply a 10% discount; otherwise, no discount — use logical operators combined with if-else if.
 // Build a simple login + role-check system that verifies username/password and shows a different message based on admin/user role — combine everything from this module (comparison, logical operators, if-else, ternary).
