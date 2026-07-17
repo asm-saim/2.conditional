@@ -85,3 +85,27 @@ if (speed > 80) {
 else {
     console.log("Normal speed")
 }
+
+// Using age and hasTicket, print "Entry allowed" if age is above 18 AND the person has a ticket (use &&).
+const age = 34;
+const hasTicket = false;
+if (age > 18 && hasTicket) {
+    console.log("Entry Allowed")
+}
+
+// Using isWeekend and isHoliday, print "No work today" if either one is true (use ||).
+
+const isWeekend = true;
+const isHoliday = false;
+if (isWeekend && isHoliday) {
+    console.log("No work today")
+}
+else {
+    console.log("Go to work")
+}
+// Build a simple login system — print "Login successful" only if both username and password are correct.
+// Build a grading system using a marks variable (A+, A, B, C, F) — it must have at least 5 condition branches.
+// Using a bmi variable, determine the category — Underweight, Normal, Overweight, Obese (use if-else if).
+// Using a month number (1-12), determine which season that month falls in (Winter, Summer, Monsoon, etc.).
+// Using age and hasID, use nested if-else to check whether someone is eligible to vote.
+// Using isLoggedIn and isAdmin, build a nested condition — if logged in and admin, print "Admin Dashboard"; if logged in but not admin, print "User Dashboard"; if not logged in, print "Please Login".
