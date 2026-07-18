@@ -157,6 +157,19 @@ else {
 }
 // Using a month number (1-12), determine which season that month falls in (Winter, Summer, Monsoon, etc.).
 // Using age and hasID, use nested if-else to check whether someone is eligible to vote.
+const personAge = 18;
+const hasID = true;
+if (personAge > 18) {
+    if (hasID === true) {
+        console.log("Go towards the ballot box")
+    }
+    else {
+        console.log("Please bring the NID ")
+    }
+}
+else {
+    console.log("not eligible")
+}
 // Using isLoggedIn and isAdmin, build a nested condition — if logged in and admin, print "Admin Dashboard"; if logged in but not admin, print "User Dashboard"; if not logged in, print "Please Login".
 // Determine whether a number is even or odd using the ternary operator.
 
